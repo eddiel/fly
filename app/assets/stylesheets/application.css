@@ -1,0 +1,34 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+/* Makeshift CSS Reset */
+html  
+{  
+    margin: 0;  
+    padding: 0;  
+}  
+  
+/* Tell the browser to render HTML 5 elements as block */  
+header, footer, aside, nav, article{  
+    display: block;  
+}
+
+body{
+	background-color: #1d4d99;
+	margin: 0px auto;
+	width: 950px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 0px 1px 1px #333;
+}

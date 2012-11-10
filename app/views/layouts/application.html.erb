@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fly2cozumel</title>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= csrf_meta_tags %>
+</head>
+<body style= "<%= background_color %>">
+	<aside id="sidebar">
+        <%= render 'layouts/lateral_menu' %>
+    </aside>
+    <div id="content">
+        <header>
+			<%= image_tag header_image if @titulo%>
+		</header>
+    <section id="<%= @titulo %>">
+      <%= yield %>
+    </section>
+    </div>
+    <%= javascript_include_tag "application" %>
+</body>
+</html>
