@@ -39,8 +39,11 @@
 		.foto-inicio{
 			background-color: #78cc40;
 			float: left;
-			width: 76.2%; /*548px*/
-			height: 424px;
+			width: 411px; /*548px*/
+			height: 256px;
+			.image{
+			 /* margin:50px 50px;*/
+			}
 		}
 		.publicidad{
 			float: right;

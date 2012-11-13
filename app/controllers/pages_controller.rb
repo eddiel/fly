@@ -2,6 +2,12 @@ class PagesController < ApplicationController
 	def inicio
 		@titulo = 'inicio'
 		@textos  = Section.find_by_nombre("inicio").phrases
+		@imagen1 =Area.find_by_nombre("Inicio Principal")
+		@imagen2 =Area.find_by_nombre("Inicio lateral 1")
+		@imagen3 =Area.find_by_nombre("Inicio lateral 2")
+		@imagen4 =Area.find_by_nombre("Inicio lateral 3")
+		@imagen5 =Area.find_by_nombre("Inicio Inferior")
+
 	end
 
 	def nosotros
