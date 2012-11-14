@@ -41386,3 +41386,3908 @@ Served asset /pages.js - 304 Not Modified (0ms)
 
 Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-12 18:21:47 -0600
 Served asset /tickets.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-12 18:38:45 -0600
+Processing by PagesController#inicio as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1
+  [1m[36mArea Load (0.9ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1[0m
+  [1m[35mArea Load (1.5ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1
+  [1m[36mPhrase Load (0.2ms)[0m  [1mSELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1[0m
+  Rendered pages/inicio.html.erb within layouts/application (176.1ms)
+Compiled active_admin.css  (3004ms)  (pid 3437)
+Compiled galeries.css  (1ms)  (pid 3437)
+Compiled pages.css  (24ms)  (pid 3437)
+Compiled scaffolds.css  (12ms)  (pid 3437)
+Compiled slide.css  (39ms)  (pid 3437)
+Compiled tickets.css  (1ms)  (pid 3437)
+Compiled application.css  (3129ms)  (pid 3437)
+  Rendered layouts/_lateral_menu.html.erb (3.1ms)
+Compiled jquery.js  (7ms)  (pid 3437)
+Compiled jquery_ujs.js  (0ms)  (pid 3437)
+Compiled jquery-ui.js  (6ms)  (pid 3437)
+Compiled active_admin/lib/namespace.js  (613ms)  (pid 3437)
+Compiled active_admin/components/jquery.aa.checkbox-toggler.js  (1660ms)  (pid 3437)
+Compiled active_admin/components/jquery.aa.dropdown-menu.js  (405ms)  (pid 3437)
+Compiled active_admin/components/jquery.aa.popover.js  (367ms)  (pid 3437)
+Compiled active_admin/components/jquery.aa.table-checkbox-toggler.js  (331ms)  (pid 3437)
+Compiled active_admin/pages/application.js  (306ms)  (pid 3437)
+Compiled active_admin/pages/batch_actions.js  (326ms)  (pid 3437)
+Compiled active_admin/application.js  (4186ms)  (pid 3437)
+Compiled active_admin/base.js  (4350ms)  (pid 3437)
+Compiled active_admin.js  (4372ms)  (pid 3437)
+Compiled galeries.js  (290ms)  (pid 3437)
+Compiled jquery.easing.js  (1ms)  (pid 3437)
+Compiled pages.js  (418ms)  (pid 3437)
+Compiled slide.js  (1ms)  (pid 3437)
+Compiled tickets.js  (223ms)  (pid 3437)
+Compiled application.js  (5464ms)  (pid 3437)
+Completed 200 OK in 9955ms (Views: 9563.3ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-12 18:38:56 -0600
+Served asset /pages.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-12 18:38:56 -0600
+Served asset /galeries.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 18:38:56 -0600
+Served asset /scaffolds.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-12 18:38:56 -0600
+Served asset /tickets.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-12 18:38:56 -0600
+Served asset /slide.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 18:38:56 -0600
+Served asset /jquery.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 18:38:56 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-12 18:38:56 -0600
+Served asset /jquery-ui.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-12 18:38:56 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-12 18:38:56 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-12 18:38:56 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-12 18:38:56 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-12 18:38:56 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-12 18:38:56 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-12 18:38:56 -0600
+Served asset /active_admin/base.js - 304 Not Modified (142ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-12 18:38:57 -0600
+Served asset /galeries.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-12 18:38:57 -0600
+Served asset /jquery.easing.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-12 18:38:57 -0600
+Served asset /pages.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-12 18:38:57 -0600
+Served asset /slide.js - 304 Not Modified (35ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-12 18:38:57 -0600
+Served asset /tickets.js - 304 Not Modified (3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-14 07:28:14 -0600
+Processing by PagesController#inicio as HTML
+  [1m[36mSection Load (8.2ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1[0m
+  [1m[35mArea Load (9.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1
+  [1m[36mArea Load (0.4ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1
+  [1m[36mPhrase Load (8.6ms)[0m  [1mSELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1[0m
+  Rendered pages/inicio.html.erb within layouts/application (212.5ms)
+  Rendered layouts/_lateral_menu.html.erb (3.5ms)
+Completed 200 OK in 2671ms (Views: 2192.6ms | ActiveRecord: 30.4ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 07:28:18 -0600
+Served asset /pages.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 07:28:18 -0600
+Served asset /galeries.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 07:28:18 -0600
+Served asset /slide.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 07:28:18 -0600
+Served asset /jquery.js - 304 Not Modified (55ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 07:28:18 -0600
+Served asset /scaffolds.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 07:28:18 -0600
+Served asset /tickets.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 07:28:19 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 07:28:19 -0600
+Served asset /jquery-ui.js - 304 Not Modified (168ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 07:28:19 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 07:28:19 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 07:28:19 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 07:28:19 -0600
+Served asset /galeries.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 07:28:19 -0600
+Served asset /slide.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 07:28:19 -0600
+Served asset /tickets.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 07:28:19 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 07:28:19 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 07:28:19 -0600
+Served asset /active_admin/base.js - 304 Not Modified (243ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 07:28:19 -0600
+Served asset /pages.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 07:28:19 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 07:28:19 -0600
+Served asset /jquery.easing.js - 304 Not Modified (11ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 07:29:01 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[35mSection Load (0.3ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_lateral_menu.html.erb (1.8ms)
+Completed 200 OK in 247ms (Views: 243.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 07:29:01 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:01 -0600
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 07:29:01 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 07:29:01 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 07:29:01 -0600
+Served asset /pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 07:29:01 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:02 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:02 -0600
+Served asset /jquery-ui.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:02 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:02 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:02 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:02 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:02 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:02 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:02 -0600
+Served asset /active_admin/base.js - 304 Not Modified (123ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:02 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:02 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:02 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:02 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:02 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2012-11-14 07:29:17 -0600
+Processing by PagesController#inicio as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1
+  [1m[36mPhrase Load (0.3ms)[0m  [1mSELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1[0m
+  Rendered pages/inicio.html.erb within layouts/application (12.5ms)
+  Rendered layouts/_lateral_menu.html.erb (2.7ms)
+Completed 200 OK in 248ms (Views: 234.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 07:29:17 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 07:29:17 -0600
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /slide.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /jquery-ui.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /active_admin/base.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /slide.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 07:29:18 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2012-11-14 07:34:59 -0600
+Processing by PagesController#inicio as HTML
+  [1m[35mSection Load (0.3ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1[0m
+  [1m[35mArea Load (0.7ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1
+  [1m[36mArea Load (0.8ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1[0m
+  [1m[35mArea Load (0.8ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1
+  [1m[36mArea Load (0.4ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1[0m
+  [1m[35mPhrase Load (0.3ms)[0m  SELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1
+  Rendered pages/inicio.html.erb within layouts/application (10.9ms)
+Compiled pages.css  (220ms)  (pid 2616)
+Compiled application.css  (6ms)  (pid 2616)
+  Rendered layouts/_lateral_menu.html.erb (1.9ms)
+Completed 200 OK in 955ms (Views: 932.9ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /pages.css - 200 OK (13ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /jquery-ui.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /active_admin/base.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 07:35:01 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2012-11-14 07:43:31 -0600
+Processing by PagesController#inicio as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1
+  [1m[36mArea Load (0.4ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1[0m
+  [1m[35mArea Load (0.8ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1
+  [1m[36mPhrase Load (0.3ms)[0m  [1mSELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1[0m
+  Rendered pages/inicio.html.erb within layouts/application (10.7ms)
+  Rendered layouts/_lateral_menu.html.erb (1.7ms)
+Completed 200 OK in 122ms (Views: 107.5ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /pages.css - 304 Not Modified (85ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /slide.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /jquery-ui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /active_admin/base.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /slide.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 07:43:32 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2012-11-14 07:55:18 -0600
+Processing by PagesController#inicio as HTML
+  [1m[35mSection Load (0.3ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1
+  [1m[36mArea Load (0.8ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1[0m
+  [1m[35mArea Load (0.6ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1
+  [1m[36mArea Load (0.4ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1[0m
+  [1m[35mPhrase Load (0.4ms)[0m  SELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1
+  Rendered pages/inicio.html.erb within layouts/application (14.4ms)
+Compiled pages.css  (86ms)  (pid 2616)
+Compiled application.css  (5ms)  (pid 2616)
+  Rendered layouts/_lateral_menu.html.erb (4.4ms)
+Completed 200 OK in 646ms (Views: 632.0ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /slide.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /pages.css - 200 OK (5ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /jquery-ui.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /active_admin/base.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /slide.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 07:55:19 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2012-11-14 08:01:22 -0600
+Processing by PagesController#inicio as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1
+  [1m[36mPhrase Load (0.3ms)[0m  [1mSELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1[0m
+  Rendered pages/inicio.html.erb within layouts/application (8.1ms)
+Compiled pages.css  (57ms)  (pid 2616)
+Compiled application.css  (5ms)  (pid 2616)
+  Rendered layouts/_lateral_menu.html.erb (4.0ms)
+Completed 200 OK in 641ms (Views: 630.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /pages.css - 200 OK (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /slide.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /jquery-ui.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /active_admin/base.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /slide.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:01:24 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2012-11-14 08:04:58 -0600
+Processing by PagesController#inicio as HTML
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1[0m
+  [1m[35mPhrase Load (0.3ms)[0m  SELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1
+  Rendered pages/inicio.html.erb within layouts/application (9.6ms)
+Compiled pages.css  (85ms)  (pid 2616)
+Compiled application.css  (8ms)  (pid 2616)
+  Rendered layouts/_lateral_menu.html.erb (1.8ms)
+Completed 200 OK in 510ms (Views: 499.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:04:59 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:04:59 -0600
+Served asset /pages.css - 200 OK (32ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:04:59 -0600
+Served asset /slide.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:04:59 -0600
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:04:59 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:04:59 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:04:59 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:05:00 -0600
+Served asset /jquery-ui.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:05:00 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:05:00 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:05:00 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:05:00 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:05:00 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:05:00 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:05:00 -0600
+Served asset /active_admin/base.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:05:00 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:05:00 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:05:00 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:05:00 -0600
+Served asset /slide.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:05:00 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2012-11-14 08:06:59 -0600
+Processing by PagesController#inicio as HTML
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1
+  [1m[36mArea Load (3.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1[0m
+  [1m[35mArea Load (0.8ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1
+  [1m[36mPhrase Load (0.3ms)[0m  [1mSELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1[0m
+  Rendered pages/inicio.html.erb within layouts/application (16.1ms)
+  Rendered layouts/_lateral_menu.html.erb (2.4ms)
+Completed 200 OK in 302ms (Views: 287.1ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:07:01 -0600
+Served asset /pages.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:07:01 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:07:01 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:07:01 -0600
+Served asset /slide.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:07:01 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:01 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:01 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:01 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:01 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:01 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:01 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:01 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:01 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:01 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:01 -0600
+Served asset /active_admin/base.js - 304 Not Modified (51ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:02 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:02 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:02 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:02 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:02 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2012-11-14 08:07:51 -0600
+Processing by PagesController#inicio as HTML
+  [1m[35mSection Load (0.3ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1
+  [1m[36mArea Load (0.6ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1
+  [1m[36mArea Load (0.4ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1[0m
+  [1m[35mPhrase Load (0.8ms)[0m  SELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1
+  Rendered pages/inicio.html.erb within layouts/application (17.8ms)
+  Rendered layouts/_lateral_menu.html.erb (3.9ms)
+Completed 200 OK in 307ms (Views: 291.8ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:07:54 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /pages.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /jquery.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /jquery-ui.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /active_admin/base.js - 304 Not Modified (43ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:07:55 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2012-11-14 08:35:45 -0600
+Processing by PagesController#inicio as HTML
+  [1m[36mSection Load (112.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1[0m
+  [1m[35mArea Load (0.2ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1[0m
+  [1m[35mArea Load (0.2ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1
+  [1m[36mPhrase Load (0.2ms)[0m  [1mSELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1[0m
+  Rendered pages/inicio.html.erb within layouts/application (6.7ms)
+Compiled pages.css  (199ms)  (pid 2616)
+Compiled application.css  (4ms)  (pid 2616)
+  Rendered layouts/_lateral_menu.html.erb (1.7ms)
+Completed 200 OK in 1049ms (Views: 928.3ms | ActiveRecord: 114.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /pages.css - 200 OK (14ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /slide.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (94ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /active_admin/base.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:35:47 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:35:48 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:35:48 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:35:48 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2012-11-14 08:38:26 -0600
+Processing by PagesController#inicio as HTML
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1
+  [1m[36mArea Load (0.4ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1[0m
+  [1m[35mPhrase Load (0.3ms)[0m  SELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1
+  Rendered pages/inicio.html.erb within layouts/application (10.9ms)
+  Rendered layouts/_lateral_menu.html.erb (1.7ms)
+Completed 200 OK in 187ms (Views: 176.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:38:26 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:38:26 -0600
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:38:26 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:38:26 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:38:26 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:38:26 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:38:26 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:38:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:38:26 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:38:26 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:38:26 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:38:26 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:38:27 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:38:27 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:38:27 -0600
+Served asset /active_admin/base.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:38:27 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:38:27 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:38:27 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:38:27 -0600
+Served asset /slide.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:38:27 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2012-11-14 08:40:37 -0600
+Processing by PagesController#inicio as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1
+  [1m[36mArea Load (0.4ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1
+  [1m[36mPhrase Load (0.3ms)[0m  [1mSELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1[0m
+  Rendered pages/inicio.html.erb within layouts/application (7.1ms)
+Compiled pages.css  (45ms)  (pid 2616)
+Compiled application.css  (3ms)  (pid 2616)
+  Rendered layouts/_lateral_menu.html.erb (2.0ms)
+Completed 200 OK in 374ms (Views: 361.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:40:38 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:40:38 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:40:38 -0600
+Served asset /pages.css - 200 OK (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:40:38 -0600
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:40:38 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:40:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:40:38 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:40:38 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:40:38 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:40:38 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:40:38 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:40:38 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:40:38 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:40:38 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:40:38 -0600
+Served asset /active_admin/base.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:40:38 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:40:39 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:40:39 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:40:39 -0600
+Served asset /slide.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:40:39 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2012-11-14 08:41:02 -0600
+Processing by PagesController#inicio as HTML
+  [1m[35mSection Load (0.3ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1
+  [1m[36mArea Load (0.4ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1[0m
+  [1m[35mPhrase Load (0.3ms)[0m  SELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1
+  Rendered pages/inicio.html.erb within layouts/application (97.3ms)
+  Rendered layouts/_lateral_menu.html.erb (1.6ms)
+Completed 200 OK in 189ms (Views: 177.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /pages.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /jquery-ui.js - 304 Not Modified (91ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /active_admin/base.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:41:03 -0600
+Served asset /tickets.js - 304 Not Modified (15ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2012-11-14 08:42:37 -0600
+Processing by PagesController#inicio as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1
+  [1m[36mPhrase Load (0.3ms)[0m  [1mSELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1[0m
+  Rendered pages/inicio.html.erb within layouts/application (11.5ms)
+Compiled pages.css  (48ms)  (pid 2616)
+Compiled application.css  (4ms)  (pid 2616)
+  Rendered layouts/_lateral_menu.html.erb (1.8ms)
+Completed 200 OK in 423ms (Views: 411.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /pages.css - 200 OK (16ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /jquery-ui.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /active_admin/base.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /jquery.easing.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /slide.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:42:38 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_lateral_menu.html.erb (1.7ms)
+Completed 200 OK in 176ms (Views: 173.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /slide.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /active_admin/base.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:43:23 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/aeroshow" for 127.0.0.1 at 2012-11-14 08:45:03 -0600
+Processing by PagesController#aeroshow as HTML
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'aeroshow' LIMIT 1[0m
+  Rendered pages/aeroshow.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_lateral_menu.html.erb (1.5ms)
+Completed 200 OK in 173ms (Views: 169.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:03 -0600
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:03 -0600
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:03 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:03 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:03 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:03 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:03 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:03 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:03 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:03 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:03 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:04 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:04 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:04 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:04 -0600
+Served asset /active_admin/base.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:04 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:04 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:04 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:04 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:04 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 08:45:29 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[35mSection Load (0.3ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_lateral_menu.html.erb (1.6ms)
+Completed 200 OK in 172ms (Views: 169.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /galeries.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /active_admin/base.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:30 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/aeroshow" for 127.0.0.1 at 2012-11-14 08:45:37 -0600
+Processing by PagesController#aeroshow as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'aeroshow' LIMIT 1[0m
+  Rendered pages/aeroshow.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_lateral_menu.html.erb (3.7ms)
+Completed 200 OK in 189ms (Views: 185.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /active_admin/base.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /jquery.easing.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /slide.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:38 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2012-11-14 08:45:42 -0600
+Processing by PagesController#inicio as HTML
+  [1m[35mSection Load (0.3ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1[0m
+  [1m[35mArea Load (0.9ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1
+  [1m[36mArea Load (0.8ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1[0m
+  [1m[35mPhrase Load (0.3ms)[0m  SELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1
+  Rendered pages/inicio.html.erb within layouts/application (15.8ms)
+  Rendered layouts/_lateral_menu.html.erb (1.6ms)
+Completed 200 OK in 206ms (Views: 192.2ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /galeries.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /active_admin/base.js - 304 Not Modified (110ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:43 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 08:45:49 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1[0m
+  Rendered pages/nosotros.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_lateral_menu.html.erb (1.8ms)
+Completed 200 OK in 89ms (Views: 86.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /active_admin/base.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:45:50 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2012-11-14 08:47:44 -0600
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 159ms
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2012-11-14 08:47:46 -0600
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /home/edd/.rvm/gems/ruby-1.9.2-p320/gems/activeadmin-0.5.0/app/views/active_admin/devise/shared/_links.erb (3.4ms)
+  Rendered /home/edd/.rvm/gems/ruby-1.9.2-p320/gems/activeadmin-0.5.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (577.8ms)
+Compiled active_admin/print.css  (347ms)  (pid 2616)
+Completed 200 OK in 1627ms (Views: 1592.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:47:48 -0600
+Served asset /jquery-ui.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:47:48 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:47:48 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:47:48 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:47:48 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:47:48 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:47:48 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:47:48 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:47:48 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:47:48 -0600
+Served asset /active_admin/base.js - 304 Not Modified (116ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2012-11-14 08:47:56 -0600
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f2ai4V3Z1CufzqDZKM6dr0vPd+lt7ZyE4urxpWuE9sM=", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[35mAdminUser Load (9.3ms)[0m  SELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = 'admin@example.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  UPDATE "admin_users" SET "last_sign_in_at" = '2012-11-12 23:48:20.170781', "current_sign_in_at" = '2012-11-14 14:47:56.550564', "sign_in_count" = 8, "updated_at" = '2012-11-14 14:47:56.552791' WHERE "admin_users"."id" = 1
+  [1m[36m (49.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 536ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2012-11-14 08:47:56 -0600
+Processing by Admin::DashboardController#index as HTML
+  [1m[35mAdminUser Load (0.4ms)[0m  SELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 LIMIT 1
+  Rendered /home/edd/.rvm/gems/ruby-1.9.2-p320/gems/activeadmin-0.5.0/app/views/active_admin/page/index.html.arb (186.9ms)
+Completed 200 OK in 212ms (Views: 208.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/areas" for 127.0.0.1 at 2012-11-14 08:48:02 -0600
+Processing by Admin::AreasController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 LIMIT 1[0m
+  [1m[35m (21.1ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "areas" LIMIT 30 OFFSET 0) subquery_for_count 
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "areas" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "areas" LIMIT 30 OFFSET 0) subquery_for_count 
+  [1m[36mArea Load (0.5ms)[0m  [1mSELECT "areas".* FROM "areas" ORDER BY "areas"."id" desc LIMIT 30 OFFSET 0[0m
+  [1m[35mSection Load (9.1ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."id" = 1 LIMIT 1
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" [0m
+  Rendered /home/edd/.rvm/gems/ruby-1.9.2-p320/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (1115.9ms)
+Completed 200 OK in 1185ms (Views: 1102.8ms | ActiveRecord: 32.1ms)
+
+
+Started GET "/admin/areas/new" for 127.0.0.1 at 2012-11-14 08:48:37 -0600
+Processing by Admin::AreasController#new as HTML
+  [1m[35mAdminUser Load (0.3ms)[0m  SELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 LIMIT 1
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" [0m
+DEPRECATION WARNING: f.buttons is deprecated in favour of f.actions. (called from block (2 levels) in <top (required)> at /home/edd/fly/app/admin/areas.rb:9)
+  Rendered /home/edd/.rvm/gems/ruby-1.9.2-p320/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (308.5ms)
+Completed 200 OK in 338ms (Views: 331.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2012-11-14 08:48:38 -0600
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/edd/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/edd/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/edd/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/edd/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2012-11-14 08:48:39 -0600
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/edd/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/edd/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/edd/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/edd/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started POST "/admin/areas" for 127.0.0.1 at 2012-11-14 08:49:54 -0600
+Processing by Admin::AreasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f2ai4V3Z1CufzqDZKM6dr0vPd+lt7ZyE4urxpWuE9sM=", "area"=>{"nombre"=>"Fondo nosotros", "descripcion"=>"Esta descripcion esta por definir", "section_id"=>"2", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f72f0a1b5c0 @original_filename="100_6415.JPG", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"area[image]\"; filename=\"100_6415.JPG\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20121114-2616-1icl5tn>>}, "commit"=>"Create Area"}
+  [1m[35mAdminUser Load (0.4ms)[0m  SELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 LIMIT 1
+Command :: identify -format %wx%h '/tmp/100_641520121114-2616-z4752n.JPG[0]'
+Command :: identify -format %m '/tmp/100_641520121114-2616-z4752n.JPG[0]'
+Command :: identify -format %m '/tmp/100_641520121114-2616-z4752n.JPG[0]'
+Command :: convert '/tmp/100_641520121114-2616-z4752n.JPG[0]' -auto-orient -resize "650x400" '/tmp/100_641520121114-2616-z4752n20121114-2616-x6uztg'
+Command :: file -b --mime '/tmp/100_641520121114-2616-z4752n20121114-2616-x6uztg'
+Command :: identify -format %wx%h '/tmp/100_641520121114-2616-z4752n.JPG[0]'
+Command :: identify -format %m '/tmp/100_641520121114-2616-z4752n.JPG[0]'
+Command :: identify -format %m '/tmp/100_641520121114-2616-z4752n.JPG[0]'
+Command :: convert '/tmp/100_641520121114-2616-z4752n.JPG[0]' -auto-orient -resize "80x80>" '/tmp/100_641520121114-2616-z4752n20121114-2616-3mtfeg'
+Command :: file -b --mime '/tmp/100_641520121114-2616-z4752n20121114-2616-3mtfeg'
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Binary data inserted for `string` type on column `image_content_type`
+  [1m[35mSQL (57.3ms)[0m  INSERT INTO "areas" ("created_at", "descripcion", "image_content_type", "image_file_name", "image_file_size", "image_updated_at", "nombre", "section_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 14 Nov 2012 14:50:00 UTC +00:00], ["descripcion", "Esta descripcion esta por definir"], ["image_content_type", "image/jpeg"], ["image_file_name", "100_6415.JPG"], ["image_file_size", 2502622], ["image_updated_at", Wed, 14 Nov 2012 14:49:54 UTC +00:00], ["nombre", "Fondo nosotros"], ["section_id", 2], ["updated_at", Wed, 14 Nov 2012 14:50:00 UTC +00:00]]
+[paperclip] Saving attachments.
+  [1m[36m (51.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/admin/areas/11
+Completed 302 Found in 5897ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/areas/11" for 127.0.0.1 at 2012-11-14 08:50:00 -0600
+Processing by Admin::AreasController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mAdminUser Load (0.5ms)[0m  SELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 LIMIT 1
+  [1m[36mArea Load (0.5ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."id" = ? LIMIT 1[0m  [["id", "11"]]
+  [1m[35mSection Load (0.3ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."id" = 2 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = 'Area' AND "active_admin_comments"."resource_id" = '11' AND "active_admin_comments"."namespace" = 'admin'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = 'Area' AND "active_admin_comments"."resource_id" = '11' AND "active_admin_comments"."namespace" = 'admin'
+  Rendered /home/edd/.rvm/gems/ruby-1.9.2-p320/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (253.6ms)
+Completed 200 OK in 274ms (Views: 264.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/admin/areas" for 127.0.0.1 at 2012-11-14 08:50:06 -0600
+Processing by Admin::AreasController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "areas" LIMIT 30 OFFSET 0) subquery_for_count 
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "areas" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "areas" LIMIT 30 OFFSET 0) subquery_for_count 
+  [1m[36mArea Load (0.4ms)[0m  [1mSELECT "areas".* FROM "areas" ORDER BY "areas"."id" desc LIMIT 30 OFFSET 0[0m
+  [1m[35mSection Load (0.3ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."id" = 2 LIMIT 1
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."id" = 1 LIMIT 1[0m
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" 
+  Rendered /home/edd/.rvm/gems/ruby-1.9.2-p320/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (732.5ms)
+Completed 200 OK in 766ms (Views: 758.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 08:52:44 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Fondo nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (0.5ms)
+Compiled pages.css  (56ms)  (pid 2616)
+Compiled application.css  (5ms)  (pid 2616)
+  Rendered layouts/_lateral_menu.html.erb (1.5ms)
+Completed 200 OK in 454ms (Views: 448.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:52:44 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:52:44 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /pages.css - 200 OK (14ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /jquery-ui.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /active_admin/base.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:52:45 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 08:52:59 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Fondo nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_lateral_menu.html.erb (4.1ms)
+Completed 200 OK in 188ms (Views: 182.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /pages.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /active_admin/base.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /jquery.easing.js - 304 Not Modified (108ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:53:00 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 08:54:56 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Fondo nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (2.3ms)
+Compiled pages.css  (118ms)  (pid 2616)
+Compiled application.css  (3ms)  (pid 2616)
+  Rendered layouts/_lateral_menu.html.erb (1.5ms)
+Completed 200 OK in 301ms (Views: 296.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /pages.css - 200 OK (13ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /slide.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /jquery-ui.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /active_admin/base.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /tickets.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:54:57 -0600
+Served asset /slide.js - 304 Not Modified (1ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 08:55:47 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Fondo nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_lateral_menu.html.erb (1.7ms)
+Completed 200 OK in 178ms (Views: 173.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /jquery-ui.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /active_admin/base.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:55:48 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 08:56:54 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Fondo nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (2.0ms)
+Compiled pages.css  (47ms)  (pid 2616)
+Compiled application.css  (4ms)  (pid 2616)
+  Rendered layouts/_lateral_menu.html.erb (2.0ms)
+Completed 200 OK in 392ms (Views: 387.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /pages.css - 200 OK (11ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /jquery-ui.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /active_admin/base.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:56:55 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 08:57:54 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Fondo nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_lateral_menu.html.erb (1.7ms)
+Completed 200 OK in 181ms (Views: 176.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /pages.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /active_admin/base.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /slide.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 08:57:55 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 09:02:55 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Fondo nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (6.5ms)
+Compiled pages.css  (53ms)  (pid 2616)
+Compiled application.css  (4ms)  (pid 2616)
+  Rendered layouts/_lateral_menu.html.erb (2.4ms)
+Completed 200 OK in 483ms (Views: 477.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /pages.css - 200 OK (10ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /active_admin/base.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /jquery.easing.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 09:02:56 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 09:05:04 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Fondo nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_lateral_menu.html.erb (1.6ms)
+Completed 200 OK in 176ms (Views: 171.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 09:05:04 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 09:05:04 -0600
+Served asset /tickets.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 09:05:04 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 09:05:04 -0600
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 09:05:04 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:04 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:04 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:04 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:04 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:04 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:04 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:04 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (102ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:05 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:05 -0600
+Served asset /active_admin/base.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:05 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:05 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:05 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:05 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:05 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2012-11-14 09:05:32 -0600
+Processing by PagesController#inicio as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1
+  [1m[36mArea Load (0.6ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1
+  [1m[36mPhrase Load (0.3ms)[0m  [1mSELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1[0m
+  Rendered pages/inicio.html.erb within layouts/application (23.1ms)
+  Rendered layouts/_lateral_menu.html.erb (1.9ms)
+Completed 200 OK in 210ms (Views: 198.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /active_admin/base.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 09:05:33 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2012-11-14 09:07:14 -0600
+Processing by PagesController#inicio as HTML
+  [1m[35mSection Load (0.3ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'inicio' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Principal' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 1' LIMIT 1
+  [1m[36mArea Load (0.4ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 2' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio lateral 3' LIMIT 1
+  [1m[36mArea Load (0.3ms)[0m  [1mSELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Inicio Inferior' LIMIT 1[0m
+  [1m[35mPhrase Load (0.7ms)[0m  SELECT "phrases".* FROM "phrases" WHERE "phrases"."section_id" = 1
+  Rendered pages/inicio.html.erb within layouts/application (12.9ms)
+  Rendered layouts/_lateral_menu.html.erb (2.0ms)
+Completed 200 OK in 194ms (Views: 182.3ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 09:07:14 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:14 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 09:07:14 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 09:07:14 -0600
+Served asset /slide.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 09:07:14 -0600
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 09:07:14 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:14 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:14 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:14 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:14 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:14 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:14 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:15 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:15 -0600
+Served asset /active_admin/base.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:15 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:15 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:15 -0600
+Served asset /pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:15 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:15 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:15 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 09:07:19 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Fondo nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_lateral_menu.html.erb (1.9ms)
+Completed 200 OK in 173ms (Views: 168.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /slide.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /jquery-ui.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /active_admin/base.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /slide.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:20 -0600
+Served asset /jquery.easing.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 09:07:21 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 09:09:21 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Fondo nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (1.6ms)
+Compiled pages.css  (44ms)  (pid 2616)
+Compiled application.css  (4ms)  (pid 2616)
+  Rendered layouts/_lateral_menu.html.erb (1.7ms)
+Completed 200 OK in 393ms (Views: 389.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /pages.css - 200 OK (19ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /active_admin/base.js - 304 Not Modified (63ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:22 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:23 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 09:09:36 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Fondo nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_lateral_menu.html.erb (1.7ms)
+Completed 200 OK in 191ms (Views: 186.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /pages.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /jquery-ui.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /active_admin/base.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /jquery.easing.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /slide.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 09:09:37 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 09:11:48 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1[0m
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Fondo nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (1.8ms)
+Compiled pages.css  (125ms)  (pid 2616)
+Compiled application.css  (4ms)  (pid 2616)
+  Rendered layouts/_lateral_menu.html.erb (1.6ms)
+Completed 200 OK in 330ms (Views: 326.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 09:11:48 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 09:11:48 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 09:11:48 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 09:11:48 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 09:11:48 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 09:11:48 -0600
+Served asset /pages.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 09:11:48 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 09:11:48 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 09:11:48 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:11:48 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 09:11:48 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 09:11:48 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:11:48 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 09:11:49 -0600
+Served asset /active_admin/base.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 09:11:49 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 09:11:49 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 09:11:49 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 09:11:49 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 09:11:49 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 09:11:49 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 09:12:10 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Fondo nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (2.1ms)
+Compiled pages.css  (128ms)  (pid 2616)
+Compiled application.css  (4ms)  (pid 2616)
+  Rendered layouts/_lateral_menu.html.erb (1.7ms)
+Completed 200 OK in 342ms (Views: 336.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 09:12:11 -0600
+Served asset /pages.css - 200 OK (6ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 09:12:11 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 09:12:11 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 09:12:11 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:11 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 09:12:11 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:11 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:11 -0600
+Served asset /jquery-ui.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:11 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:11 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:11 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:11 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:11 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (109ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:11 -0600
+Served asset /active_admin/base.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:12 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:12 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:12 -0600
+Served asset /jquery.easing.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:12 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:12 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:12 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 09:12:27 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Fondo nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (2.3ms)
+Compiled pages.css  (124ms)  (pid 2616)
+Compiled application.css  (4ms)  (pid 2616)
+  Rendered layouts/_lateral_menu.html.erb (1.7ms)
+Completed 200 OK in 315ms (Views: 309.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 09:12:28 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 09:12:28 -0600
+Served asset /slide.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 09:12:28 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 09:12:28 -0600
+Served asset /pages.css - 200 OK (16ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:28 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 09:12:28 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:28 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:28 -0600
+Served asset /jquery-ui.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:28 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:28 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:28 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:28 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:28 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:28 -0600
+Served asset /active_admin/base.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:29 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:29 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:29 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:29 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:29 -0600
+Served asset /slide.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:29 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/nosotros" for 127.0.0.1 at 2012-11-14 09:12:50 -0600
+Processing by PagesController#nosotros as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'nosotros' LIMIT 1[0m
+  [1m[35mArea Load (0.4ms)[0m  SELECT "areas".* FROM "areas" WHERE "areas"."nombre" = 'Fondo nosotros' LIMIT 1
+  Rendered pages/nosotros.html.erb within layouts/application (2.3ms)
+Compiled pages.css  (115ms)  (pid 2616)
+Compiled application.css  (3ms)  (pid 2616)
+  Rendered layouts/_lateral_menu.html.erb (1.8ms)
+Completed 200 OK in 301ms (Views: 296.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /slide.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /pages.css - 200 OK (17ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /jquery-ui.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /active_admin/base.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /galeries.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /slide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 09:12:51 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/aeroshow" for 127.0.0.1 at 2012-11-14 09:13:13 -0600
+Processing by PagesController#aeroshow as HTML
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."nombre" = 'aeroshow' LIMIT 1[0m
+  Rendered pages/aeroshow.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_lateral_menu.html.erb (1.6ms)
+Completed 200 OK in 191ms (Views: 187.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.css?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /slide.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /active_admin/base.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /jquery.easing.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slide.js?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /slide.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2012-11-14 09:13:14 -0600
+Served asset /tickets.js - 304 Not Modified (0ms)

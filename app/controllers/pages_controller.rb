@@ -14,6 +14,7 @@ class PagesController < ApplicationController
 		@titulo = 'contacto'
 		@fondo = '#78cc40'
 		@textos  = Section.find_by_nombre("nosotros").phrases
+		@imagenfondo =Area.find_by_nombre("Fondo nosotros")
 	end
 
 	def aeroshow
